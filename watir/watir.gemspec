@@ -1,4 +1,4 @@
-require 'watir-rdoc'
+require File.dirname(__FILE__) + '/watir-rdoc'
 
 $__watir_source_patterns = [
     'CHANGES', 'rakefile.rb', 'VERSION', "README.rdoc", 'watir.gemspec', 'watir-rdoc.rb', 'LICENSE',
